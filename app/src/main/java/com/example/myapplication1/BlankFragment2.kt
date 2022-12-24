@@ -1,16 +1,11 @@
 package com.example.myapplication1
 
-import android.accounts.AccountManager.get
-import android.nfc.tech.IsoDep.get
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewConfiguration.get
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_blank.*
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_blank2.view.*
-import java.nio.file.Paths.get
 
 //import kotlinx.android.synthetic.main
 // TODO: Rename parameter arguments, choose names that match
@@ -48,12 +43,11 @@ class BlankFragment2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val views= inflater.inflate(R.layout.fragment_blank2, container, false)
+        val views = inflater.inflate(R.layout.fragment_blank2, container, false)
         //params.also { views.textView6.text = it }
-        views.textView6.text =  param1
+        views.textView6.text = param1
         return views
     }
-
 
 
     companion object {

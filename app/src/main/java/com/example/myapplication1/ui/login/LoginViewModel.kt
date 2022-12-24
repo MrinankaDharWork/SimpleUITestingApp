@@ -1,13 +1,12 @@
 package com.example.myapplication1.ui.login
 
+import android.util.Patterns
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import android.util.Patterns
+import com.example.myapplication1.R
 import com.example.myapplication1.data.LoginRepository
 import com.example.myapplication1.data.Result
-
-import com.example.myapplication1.R
 
 class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
 
